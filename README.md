@@ -7,4 +7,4 @@ The super manifest file contains a section for application sources, board source
 This manifest is used by the ModusToolbox software. To use the super manifest file, specify it in your Windows system environment variables.
 
 ---
-© Cypress Semiconductor Corporation, 2019-2020.
+© Cypress Semiconductor Corporation, 2019-2024.

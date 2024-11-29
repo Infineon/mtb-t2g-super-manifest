@@ -1,6 +1,6 @@
 <super-manifest version="2.0">
   <board-manifest-list>
-    <board-manifest dependency-url="https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-dependencies-manifest.xml">
+    <board-manifest dependency-url="https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-dependencies-manifest.xml" capability-url="https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-capabilities-manifest.json">
       <uri>https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-manifest-fv2.xml</uri>
     </board-manifest>
   </board-manifest-list>
