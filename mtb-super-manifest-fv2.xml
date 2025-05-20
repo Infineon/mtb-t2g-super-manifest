@@ -1,15 +1,69 @@
 <super-manifest version="2.0">
   <board-manifest-list>
-    <board-manifest dependency-url="https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-dependencies-manifest.xml" capability-url="https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-capabilities-manifest.json">
-      <uri>https://github.com/Infineon/mtb-t2g-bsp-manifest/raw/main/mtb-bsp-manifest-fv2.xml</uri>
+    <board-manifest>
+      <uri>https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml</uri>
+    </board-manifest>
+    <board-manifest dependency-url="https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml" capability-url="https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json">
+      <uri>https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml</uri>
+    </board-manifest>
+    <board-manifest>
+      <uri>https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml</uri>
+    </board-manifest>
+    <board-manifest dependency-url="https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml">
+      <uri>https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml</uri>
+    </board-manifest>
+    <board-manifest dependency-url="https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml">
+      <uri>https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml</uri>
+    </board-manifest>
+    <board-manifest dependency-url="https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml">
+      <uri>https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml</uri>
     </board-manifest>
   </board-manifest-list>
   <app-manifest-list>
+    <app-manifest>
+      <uri>https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml</uri>
+    </app-manifest>
     <app-manifest>
       <uri>https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml</uri>
     </app-manifest>
     <app-manifest>
       <uri>https://github.com/Infineon/mtb-t2g-ce-manifest/raw/main/mtb-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml</uri>
     </app-manifest>
   </app-manifest-list>
   <middleware-manifest-list>
@@ -32,13 +86,22 @@
       <uri>https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml</uri>
     </middleware-manifest>
     <middleware-manifest>
+      <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml</uri>
+    </middleware-manifest>
+    <middleware-manifest>
+      <uri>https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml</uri>
+    </middleware-manifest>
+    <middleware-manifest>
       <uri>https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml</uri>
     </middleware-manifest>
     <middleware-manifest>
       <uri>https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml</uri>
     </middleware-manifest>
-    <middleware-manifest dependency-url="https://github.com/Infineon/mtb-t2g-mw-manifest/raw/main/mtb-t2g-mw-dependencies-manifest.xml">
-      <uri>https://github.com/Infineon/mtb-t2g-mw-manifest/raw/main/mtb-t2g-mw-manifest-fv2.xml</uri>
+    <middleware-manifest>
+      <uri>https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml</uri>
+    </middleware-manifest>
+    <middleware-manifest>
+      <uri>https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml</uri>
     </middleware-manifest>
   </middleware-manifest-list>
 </super-manifest>
